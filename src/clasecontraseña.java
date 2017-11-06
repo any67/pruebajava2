@@ -19,12 +19,19 @@ public class clasecontraseña
 {
     public static void main(String[] args)
     {
-   int contraseña = numero ;
-   int index = 8583;
-    while(index = 3 )
+   int contraseña = 1234 ;
+   int index = 3;
+   int maximo=3;
+    while(index !=3 )
+        {
+        //stop = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
+        System.out.println(index);
+        index=3;//Incrementamos la variable en 1
+                
+      }
     
    contraseña = Integer.parseInt(JOptionPane.showInputDialog("Ingrese contraseña"));
-        if (contraseña!=)
+        if (contraseña!=3)
         {
             JOptionPane.showMessageDialog(null, "Intentelo de nuevo");  
         }
@@ -32,7 +39,8 @@ public class clasecontraseña
         {
             
         }
-        if (contraseña!=)
+        contraseña = Integer.parseInt(JOptionPane.showInputDialog("Ingrese contraseña nuevamente"));
+        if (contraseña!=3)
         {
           JOptionPane.showMessageDialog(null, "Intentelo de nuevo");   
         }
@@ -40,15 +48,12 @@ public class clasecontraseña
         else
         {
         }
-        if (contraseña!=) 
+         contraseña = Integer.parseInt(JOptionPane.showInputDialog("Ingrese ultimo intento"));
+        if (contraseña!=3) 
         {
-         JOptionPane.showMessageDialog(null, "Intentelo de nuevo");   
+         JOptionPane.showMessageDialog(null, "cuenta bloqueada, comuniquese con soporte tecnico");   
         }
-         
-        else
-        {
-           JOptionPane.showMessageDialog(null, "cuenta bloqueada, comuniquese con soporte tecnico");    
-        }
+        
                 
       }
     
